@@ -6,3 +6,24 @@
 textarea:focus, input:focus{
     outline: none;
 }
+
+.btn-custom{
+    box-sizing: border-box;
+    width: 40%;
+    padding: 10px 20px;
+    left: 118px;
+    top: 585px;
+    margin-top: 20px;
+    background: #2FBE34;
+    border: 1px solid #164A0D;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.btn-custom:hover{
+    background: #248527;
+    border: 1px solid #164A0D;
+}

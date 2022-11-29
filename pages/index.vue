@@ -1,9 +1,8 @@
 <template>
   <div>
     <transition name="fade-leave">
-      <!-- <Load v-if="loading"/>
-      <Login v-else/> -->
-      <Login/>
+      <Load v-if="loading"/>
+      <Login v-else/>
     </transition>
 
   </div>

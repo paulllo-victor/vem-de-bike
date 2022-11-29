@@ -32,6 +32,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -54,5 +55,11 @@ export default {
         autoprefixer: {},
       },
     },
+  },
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true,
+    }
   }
 }

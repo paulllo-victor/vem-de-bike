@@ -6,9 +6,9 @@
             <div class="mb-6">
                 <input class="input-login" placeholder="Email" type="text">
                 <input class="input-login" placeholder="Senha" type="password">
-                <input class="btn-login" placeholder="Senha" type="submit">
+                <input class="btn-custom" placeholder="Senha" type="submit">
             </div>
-            <a href="#">Criar uma conta</a>
+            <NuxtLink to="/app">Criar uma conta</NuxtLink>
         </div>
     </div>
   </div>
@@ -32,22 +32,5 @@ export default {
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         border-radius: 10px;
         margin-bottom: 15px;
-    }
-    .btn-login{
-        box-sizing: border-box;
-        width: 40%;
-        height: 51px;
-        left: 118px;
-        top: 585px;
-        margin-top: 20px;
-        background: #2FBE34;
-        border: 1px solid #164A0D;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    .btn-login:hover{
-        background: #248527;
-        border: 1px solid #164A0D;
-        color: white;
     }
 </style>
