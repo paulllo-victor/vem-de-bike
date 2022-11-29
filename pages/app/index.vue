@@ -10,7 +10,6 @@
 
 <script>
 export default {
-  name: 'IndexPage',
   layout: 'app',
   data(){
     return {
