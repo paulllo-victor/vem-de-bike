@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 
 textarea:focus, input:focus{
