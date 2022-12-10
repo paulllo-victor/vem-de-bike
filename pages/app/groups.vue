@@ -19,9 +19,6 @@ export default {
             links: [
                 {
                     'name': 'Amantes de bike Recife',
-                },
-                {
-                    'name': 'Andando de bike por Recife',
                 }
             ]
         }

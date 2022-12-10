@@ -1,10 +1,10 @@
 <template>
   <div class="text-center p-6">
     <NuxtLink to="/app/groups" class="btn-custom">Pesquisar Grupo</NuxtLink>
-    <NuxtLink to="/app/groups" class="btn-custom">Rotas interativas</NuxtLink>
-    <NuxtLink to="/app/groups" class="btn-custom">Retire sua Bike</NuxtLink>
-    <NuxtLink to="/app/groups" class="btn-custom">Criar Grupo</NuxtLink>
-    <NuxtLink to="/app/groups" class="btn-custom">Resgate seus pontos</NuxtLink>
+    <NuxtLink to="#" class="btn-custom">Rotas interativas</NuxtLink>
+    <NuxtLink to="#" class="btn-custom">Retire sua Bike</NuxtLink>
+    <NuxtLink to="#" class="btn-custom">Criar Grupo</NuxtLink>
+    <NuxtLink to="#" class="btn-custom">Resgate seus pontos</NuxtLink>
   </div>
 </template>
 

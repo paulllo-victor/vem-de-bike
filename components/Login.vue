@@ -6,9 +6,10 @@
             <div class="mb-6">
                 <input class="input-custom" placeholder="Email" type="text">
                 <input class="input-custom" placeholder="Senha" type="password">
-                <input class="btn-custom" placeholder="Senha" type="submit">
+                <br>
+                <br>
+                <NuxtLink class="btn-custom mt-4"  to="/app">Entrar</NuxtLink>
             </div>
-            <NuxtLink to="/app">Criar uma conta</NuxtLink>
         </div>
     </div>
   </div>

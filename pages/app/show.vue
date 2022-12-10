@@ -21,7 +21,7 @@
 
     
     <div class="pt-4 text-cemter">
-        <NuxtLink to="/app/groups" class="btn-custom block">Entrar</NuxtLink>
+        <NuxtLink to="#" class="btn-custom block">Entrar</NuxtLink>
     </div>
   </div>
 </template>
